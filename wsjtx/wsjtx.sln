@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6989167D-11E4-40FE-8C1A-2192A86A7E90}") = "wsjt_fort", "wsjt_fort.vfproj", "{06EC6689-6DBA-319A-85D9-4D497E7453F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		MinSizeRel|x64 = MinSizeRel|x64
+		Release|x64 = Release|x64
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06EC6689-6DBA-319A-85D9-4D497E7453F5}.Debug|x64.ActiveCfg = Debug|x64
+		{06EC6689-6DBA-319A-85D9-4D497E7453F5}.Debug|x64.Build.0 = Debug|x64
+		{06EC6689-6DBA-319A-85D9-4D497E7453F5}.MinSizeRel|x64.ActiveCfg = MinSizeRel|x64
+		{06EC6689-6DBA-319A-85D9-4D497E7453F5}.MinSizeRel|x64.Build.0 = MinSizeRel|x64
+		{06EC6689-6DBA-319A-85D9-4D497E7453F5}.Release|x64.ActiveCfg = Release|x64
+		{06EC6689-6DBA-319A-85D9-4D497E7453F5}.Release|x64.Build.0 = Release|x64
+		{06EC6689-6DBA-319A-85D9-4D497E7453F5}.RelWithDebInfo|x64.ActiveCfg = RelWithDebInfo|x64
+		{06EC6689-6DBA-319A-85D9-4D497E7453F5}.RelWithDebInfo|x64.Build.0 = RelWithDebInfo|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE87F68B-4122-3AF8-8F09-80B594EADBF3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{06EC6689-6DBA-319A-85D9-4D497E7453F5}">
+	<Platforms>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|x64" OutputDirectory="C:\wsjt_fort\wsjtx\Debug" IntermediateDirectory="wsjt_fort.dir\Debug" TargetName="wsjt_fort" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 -f77rtl -Wall -Wno-conversion -fno-second-underscore" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx;C:\wsjt_fort\wsjtx/$(ConfigurationName)" PreprocessorDefinitions="QT5;CMAKE_BUILD;BIGSYM=1;BOOST_ALL_DYN_LINK;WIN32;CMAKE_INTDIR=\&quot;Debug\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDebugDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:x64" OutputFile="C:\wsjt_fort\wsjtx\Debug\wsjt_fort.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="QT5;CMAKE_BUILD;BIGSYM=1;BOOST_ALL_DYN_LINK;WIN32;CMAKE_INTDIR=\&quot;Debug\&quot;" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="C:\wsjt_fort\wsjtx\Release" IntermediateDirectory="wsjt_fort.dir\Release" TargetName="wsjt_fort" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2 -f77rtl -Wall -Wno-conversion -fno-second-underscore" SuppressStartupBanner="true" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx;C:\wsjt_fort\wsjtx/$(ConfigurationName);C:\wsjt_fort\wsjtx\lib" PreprocessorDefinitions="NDEBUG;QT5;CMAKE_BUILD;BIGSYM=1;BOOST_ALL_DYN_LINK;WIN32;CMAKE_INTDIR=\&quot;Release\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:x64" OutputFile="C:\wsjt_fort\wsjtx\Release\wsjt_fort.lib" ExportNamedFunctions="genft8"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;QT5;CMAKE_BUILD;BIGSYM=1;BOOST_ALL_DYN_LINK;WIN32;CMAKE_INTDIR=\&quot;Release\&quot;" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="MinSizeRel|x64" OutputDirectory="C:\wsjt_fort\wsjtx\MinSizeRel" IntermediateDirectory="wsjt_fort.dir\MinSizeRel" TargetName="wsjt_fort" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1" SuppressStartupBanner="true" Optimization="optimizeMinSpace" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx;C:\wsjt_fort\wsjtx/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;QT5;CMAKE_BUILD;BIGSYM=1;BOOST_ALL_DYN_LINK;WIN32;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:x64" OutputFile="C:\wsjt_fort\wsjtx\MinSizeRel\wsjt_fort.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;QT5;CMAKE_BUILD;BIGSYM=1;BOOST_ALL_DYN_LINK;WIN32;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|x64" OutputDirectory="C:\wsjt_fort\wsjtx\RelWithDebInfo" IntermediateDirectory="wsjt_fort.dir\RelWithDebInfo" TargetName="wsjt_fort" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="/W1 /O2" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx;C:\wsjt_fort\wsjtx/$(ConfigurationName)" PreprocessorDefinitions="NDEBUG;QT5;CMAKE_BUILD;BIGSYM=1;BOOST_ALL_DYN_LINK;WIN32;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" ModulePath=".\$(ConfigurationName)" RuntimeLibrary="rtMultiThreadedDLL" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" AdditionalOptions="/machine:x64" OutputFile="C:\wsjt_fort\wsjtx\RelWithDebInfo\wsjt_fort.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="NDEBUG;QT5;CMAKE_BUILD;BIGSYM=1;BOOST_ALL_DYN_LINK;WIN32;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx"/>
+				<Tool Name="VFMidlTool" AdditionalIncludeDirectories="C:\wsjt_fort\wsjtx" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\addit.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\afc65b.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\afc9.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ana64.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ana932.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\analytic.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\astro.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\astro0.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\astrosub.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\avecho.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\averms.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\azdist.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\baddata.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\baseline.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\blanker.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\bpdecode128_90.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\bpdecode174_91.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\bpdecode40.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\C_interface_module.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\calibrate.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ccf2.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ccf65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\chkcall.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\chkcrc13a.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\chkcrc14a.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\chkhist.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\chkmsg.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\chkss2.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\clockit.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\compress.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\coord.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\crc.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\db.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\decode174_91.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\decode240_101.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\decode240_74.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\decode4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\decode65a.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\decode65b.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\decode9w.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\decoder.f90">
+			<FileConfiguration Name="RelWithDebInfo|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="-Wno-unused-dummy-argument"/></FileConfiguration>
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="-Wno-unused-dummy-argument"/></FileConfiguration>
+			<FileConfiguration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="-Wno-unused-dummy-argument"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="-Wno-unused-dummy-argument"/></FileConfiguration></File>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\deep4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\deg2grid.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\degrade_snr.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\demod64a.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\determ.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\downsam9.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\encode174_91.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\encode174_91_nocrc.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\encode232.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\encode240_101.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\encode240_74.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\encode4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\encode_128_90.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\encode_msk40.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\entail.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ephem.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\extract.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\extract4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\extractmessage77.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fano232.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fast9.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fast_decode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\fastosd240_74.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fchisq.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fchisq0.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fchisq65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fftw3mod.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fil3.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fil3c.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fil4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fil6521.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\filbig.f90">
+			<FileConfiguration Name="RelWithDebInfo|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="-Wno-aliasing"/></FileConfiguration>
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="-Wno-aliasing"/></FileConfiguration>
+			<FileConfiguration Name="Debug|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="-Wno-aliasing"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|x64">
+				<Tool Name="VFFortranCompilerTool" AdditionalOptions="-Wno-aliasing"/></FileConfiguration></File>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\filt8.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fitcal.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\flat1.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\flat1a.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\flat1b.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\flat2.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\flat4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\flat65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fmtmsg.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\foldspec9f.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\four2a.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\foxfilt.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\foxgen.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\foxgen_wrap.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\fst4_baseline.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4_decode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\fst4sim.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\ft4_baseline.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4_decode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\ft4_downsample.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\ft4code.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\ft4sim.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\ft4sim_mult.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8_decode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\ft8_downsample.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\ft8apset.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\ft8b.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\ft8code.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\ft8sim.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\gen4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\gen65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\gen9.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\gen_fst4wave.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\gen_ft4wave.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\gen_ft8wave.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\genfst4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\genft4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\genft8.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\genft8refsig.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\genmsk40.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\genmsk_128_90.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\qra\q65\genq65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\genwave.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\genwspr.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\geodist.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\get_crc14.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\get_crc24.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\get_fst4_bitmetrics.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\get_fst4_bitmetrics2.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\get_ft4_bitmetrics.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\get_spectrum_baseline.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\getcandidates4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\getlags.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\getmet4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft2\gfsk_pulse.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\graycode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\graycode65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\grayline.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\grid2deg.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\h1.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\hash.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\hashing.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\hint65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\hspec.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\indexx.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\inter_wspr.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\interleave4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\interleave63.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\interleave9.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\iso_c_utilities.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\jplsubs.f"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\jt4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\jt4_decode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\jt65_decode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\jt65_mod.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\jt9_decode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\jt9fano.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\jtmsg.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\libration.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\lorentzian.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\lorentzian_fading.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\lpf1.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\makepings.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\map65_mmdec.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\mixlpf.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\moondopjpl.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\morse.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\move.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk144_freq_search.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk144decodeframe.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk144signalquality.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk144sim.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk144spd.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk144sync.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk40_freq_search.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk40decodeframe.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk40spd.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\msk40sync.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\mskrtd.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\77bit\my_hash.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\nuttal_window.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\options.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\osd128_90.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\osd174_91.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\osd240_101.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\fst4\osd240_74.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\wsprd\osdwspr.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\packjt.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\77bit\packjt77.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\pctile.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\peakdt9.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\peakup.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\platanh.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\plotsave.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\pltanh.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\polyfit.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\prog_args.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ps4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\qra\q65\q65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\qra\q65\q65_ap.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\q65_decode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\qra\q65\q65_encoding_modules.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\qra\q65\q65_loops.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\qra\q65\q65_set_list.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\readwav.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\refspectrum.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\savec2.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sec0.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sec_midn.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\setup65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sh65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sh65snr.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\shell.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\shmem.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\slasubs.f"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sleep_msec.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\slope.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\smo.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\smo121.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\softsym.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\softsym9f.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\softsym9w.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\spec64.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\spec9f.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\stdmsg.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\subtract65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\subtractft4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\subtractft8.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sun.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\symspec.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\symspec2.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\symspec65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sync4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft4\sync4d.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sync65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\sync8.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\sync8d.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sync9.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sync9f.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\sync9w.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\timer_C_wrapper.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\timer_impl.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\timer_module.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\timf2.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\tweak1.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\twkfreq.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\twkfreq1.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\twkfreq65.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\types.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\update_msk40_hasharray.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\update_recent_calls.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\ft8\watterson.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\wav11.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\wav12.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\wavhdr.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\wqdecode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\wqencode.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\wspr_downsample.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\xcor.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\xcor4.f90"/>
+		<File RelativePath="C:\wsjt_fort\wsjtx\lib\zplot9.f90"/></Filter>
+		<File RelativePath="C:\wsjt_fort\wsjtx\CMakeLists.txt">
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;C:\msys64\mingw64\bin\cmake.exe -SC:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx -BC:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx --check-stamp-file C:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx/CMakeLists.txt" Outputs="C:\wsjt_fort\wsjtx\CMakeFiles\generate.stamp" AdditionalDependencies="C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeDependentOption.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeFortranInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\Intel-Fortran.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\Intel.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-Intel-Fortran.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-Intel.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\wsjt_fort\wsjtx\CMake\Modules\set_build_type.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeFortranCompiler.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeRCCompiler.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeSystem.cmake;C:\wsjt_fort\wsjtx\CMakeLists.txt;C:\wsjt_fort\wsjtx\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="RelWithDebInfo|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;C:\msys64\mingw64\bin\cmake.exe -SC:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx -BC:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx --check-stamp-file C:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx/CMakeLists.txt" Outputs="C:\wsjt_fort\wsjtx\CMakeFiles\generate.stamp" AdditionalDependencies="C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeDependentOption.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeFortranInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\Intel-Fortran.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\Intel.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-Intel-Fortran.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-Intel.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\wsjt_fort\wsjtx\CMake\Modules\set_build_type.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeFortranCompiler.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeRCCompiler.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeSystem.cmake;C:\wsjt_fort\wsjtx\CMakeLists.txt;C:\wsjt_fort\wsjtx\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Debug|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;C:\msys64\mingw64\bin\cmake.exe -SC:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx -BC:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx --check-stamp-file C:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx/CMakeLists.txt" Outputs="C:\wsjt_fort\wsjtx\CMakeFiles\generate.stamp" AdditionalDependencies="C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeDependentOption.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeFortranInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\Intel-Fortran.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\Intel.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-Intel-Fortran.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-Intel.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\wsjt_fort\wsjtx\CMake\Modules\set_build_type.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeFortranCompiler.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeRCCompiler.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeSystem.cmake;C:\wsjt_fort\wsjtx\CMakeLists.txt;C:\wsjt_fort\wsjtx\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;C:\msys64\mingw64\bin\cmake.exe -SC:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx -BC:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx --check-stamp-file C:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule C:/msys64/wsjtx-2.5.0-rc3/src/wsjtx/wsjtx/wsjtx/CMakeLists.txt" Outputs="C:\wsjt_fort\wsjtx\CMakeFiles\generate.stamp" AdditionalDependencies="C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeDependentOption.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeFortranInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeParseArguments.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\Intel-Fortran.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Compiler\Intel.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-Intel-Fortran.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-Intel.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\msys64\mingw64\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\wsjt_fort\wsjtx\CMake\Modules\set_build_type.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeFortranCompiler.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeRCCompiler.cmake;C:\wsjt_fort\wsjtx\CMakeFiles\3.20.3\CMakeSystem.cmake;C:\wsjt_fort\wsjtx\CMakeLists.txt;C:\wsjt_fort\wsjtx\CMakeLists.txt;"/></FileConfiguration></File></Files>
+	<Globals/></VisualStudioProject>
